@@ -1,5 +1,5 @@
 {
-  "maxItems": 5,
+  "maxItems":10,
   "startUrls": ["https://www.jumia.com.ng/health-beauty/"],
   "maxConcurrency": 1,
   "maxRequestRetries": 5,

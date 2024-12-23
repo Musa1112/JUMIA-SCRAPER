@@ -60,7 +60,7 @@ import {
   // Initialoize the crawler
   const crawler = new PuppeteerCrawler({
     requestQueue,
-    maxConcurrency,
+    maxConcurrency: 3,
     minConcurrency,
     maxRequestRetries,
     requestHandlerTimeoutSecs: 60,
@@ -91,7 +91,7 @@ import {
 
           console.log(paginationUrls);
 
-          for (const url of paginationUrls?.slice(0, 3)) {
+          for (const url of paginationUrls) {
             await requestQueue.addRequest({
               url,
               userData: {
@@ -115,7 +115,7 @@ import {
         if (request.userData.label === "LISTING") {
           // 2 - Get all direct product URLs and enqueue
           const productUrls = await getProductUrls(page);
-          for (const url of productUrls?.slice(0, 3)) {
+          for (const url of productUrls) {
             await requestQueue.addRequest({
               url,
               userData: {

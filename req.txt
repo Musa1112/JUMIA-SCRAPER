@@ -24,3 +24,17 @@ Seed data:
 ["https://www.jumia.com.ng/health-beauty/"
 "https://www.jumia.com.ng/mlp-appliances/",
 "https://www.jumia.com.ng/computing/"]
+
+INPUT.json
+{
+  "maxItems":10,
+  "startUrls": ["https://www.jumia.com.ng/health-beauty/"],
+  "maxConcurrency": 1,
+  "maxRequestRetries": 5,
+  "proxyConfig": {
+    "useApifyProxy": false,
+    "proxyUrls": [
+      "http://you:me@p.webshare.io:99"
+    ]
+  }
+}

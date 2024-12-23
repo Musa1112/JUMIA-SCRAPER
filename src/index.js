@@ -76,7 +76,6 @@ import {
       },
     ],
     async requestHandler({ page, request, response, session }) {
-      console.log(request.url);
       try {
         const status = response.status();
         if (status !== "200") {
@@ -85,11 +84,8 @@ import {
 
         // Generate pagination URLs
         if (request.userData.label === "STARTING_URL") {
-          console.log(`starting url`);
           // 1 - Generate Pagination pages and enqueue
           const paginationUrls = await generatePaginationUrls(page);
-
-          console.log(paginationUrls);
 
           for (const url of paginationUrls) {
             await requestQueue.addRequest({
@@ -152,7 +148,7 @@ import {
 
           // Only write/push to dataset if dataset lenght is less than 'maxItems'
           if (maxItems > totalItems) {
-            console.dir(payload, { depth: null, color: true });
+            // console.dir(payload, { depth: null, color: true });
             await Actor.pushData(payload);
             totalItems++;
           } else {

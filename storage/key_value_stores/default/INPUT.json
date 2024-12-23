@@ -1,0 +1,12 @@
+{
+  "maxItems": 5,
+  "startUrls": ["https://www.jumia.com.ng/health-beauty/"],
+  "maxConcurrency": 1,
+  "maxRequestRetries": 5,
+  "proxyConfig": {
+    "useApifyProxy": false,
+    "proxyUrls": [
+      "http://you:me@p.webshare.io:99"
+    ]
+  }
+}

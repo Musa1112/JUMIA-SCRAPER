@@ -1,0 +1,26 @@
+- Build a Jumia scraper that pulls all available products on the 'Appliances', beauty, computing route (https://www.jumia.com.ng/mlp-appliances/, ) with the following data points. title, price, images, descrnklfne, ratingb, revoi, sku 
+
+Approach:
+- Visit https://www.jumia.com.ng/mlp-appliances/
+- Extract all the URLs on the listing pages for this route/category
+    - write a selctor that targets 'A' tags that contain the product urls
+- For every extracted URL/product page, pull data points in questino
+    - inspect the page for any 'script tyerboife'
+    - inspect the 'window' for COMMON data paths. e.g 'window.dataLayer', 'window.__STORE__', 'window.__NEXT_DATA__', window.__NUXT_DATA__
+    - request interception
+    - craft CSS selectors
+- Based on the provided/default limit, Write the result to dataset.
+- Finishing touches:
+ - handles erros
+ - gracefully close browser
+ - disable/block page assets from loading: CSS, images, fonts, videos, manifest,
+ - 
+
+
+
+
+
+Seed data:
+["https://www.jumia.com.ng/health-beauty/"
+"https://www.jumia.com.ng/mlp-appliances/",
+"https://www.jumia.com.ng/computing/"]

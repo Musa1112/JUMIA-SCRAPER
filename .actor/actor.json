@@ -1,0 +1,53 @@
+{
+  "actorSpecification": 1,
+  "name": "actor-jumia-scraper",
+  "title": "Jumia Scraper",
+  "description": "Scrape Jumia website to extract product data",
+  "version": "0.0.1",
+  "storages": {
+    "dataset": {
+      "actorSpecification": 1,
+      "title": "Output",
+      "description": "Too see all scraped properties, export the whole dataset or select All fields instead of Overview",
+      "views": {
+        "overview": {
+          "title": "Overview",
+          "description": "Selected fields from the dataset",
+          "transformation": {
+            "fields": ["id", "sku", "price", "name", "url"]
+          },
+          "display": {
+            "component": "table",
+            "columns": [
+              {
+                "label": "ID",
+                "format": "text",
+                "field": "id"
+              },
+              {
+                "label": "SKU",
+                "format": "text",
+                "field": "sku"
+              },
+              {
+                "label": "Price",
+                "format": "text",
+                "field": "price"
+              },
+              {
+                "label": "Name",
+                "format": "text",
+                "field": "name"
+              },
+              {
+                "label": "URL",
+                "format": "link",
+                "field": "url"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

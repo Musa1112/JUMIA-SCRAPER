@@ -1,0 +1,8 @@
+{
+  "name": "actor-coupert-scraper",
+  "version": "1.0",
+  "buildTag": "latest",
+  "env": {
+    "npm_config_loglevel": "silent"
+  }
+}

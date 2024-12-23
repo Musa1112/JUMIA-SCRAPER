@@ -39,47 +39,37 @@ Below is a sample of the input
 ## Sample output
 ```json
 {
-	"sku": "HP246CL18EREXNAFAMZ",
-	"name": "Notebook 15 Intel Core I3 (12GB RAM, 1TB HDD)-Win 10 + MOUSE",
-	"displayName": "Hp Notebook 15 Intel Core I3 (12GB RAM, 1TB HDD)-Win 10 + MOUSE",
-	"brand": "Hp",
-	"sellerId": "<redacted>",
-	"categories": "Computing/Computers & Accessories/Computers & Tablets/Laptops",
-	"prices": {
-		"rawPrice": "259999.00",
-		"price": "₦ 259,999",
-		"priceEuro": "597.07",
-		"taxEuro": "41.66",
-		"oldPrice": "₦ 290,000",
-		"oldPriceEuro": "665.96",
-		"discount": "10%"
-	},
-	"rating": {
-		"average": 4,
-		"totalRatings": 54
-	},
-	"image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/74/591817/1.jpg?4227",
-	"url": "https://www.jumia.com.ng/hp-notebook-15-intel-core-i3-12gb-ram-1tb-hdd-win-10-mouse-71819547.html",
-	"isBuyable": true,
-	"simples": [
-		{
-			"sku": "HP246CL18EREXNAFAMZ-100123623",
-			"isBuyable": true,
-			"name": "",
-			"prices": {
-				"rawPrice": "259999.00",
-				"price": "₦ 259,999",
-				"priceEuro": "597.07",
-				"taxEuro": "41.66",
-				"oldPrice": "₦ 290,000",
-				"oldPriceEuro": "665.96",
-				"discount": "10%"
-			}
-		}
-	],
-	"selectedVariation": "HP246CL18EREXNAFAMZ-100123623",
-	"price": "₦ 259,999"
-}
+    "id": 104317151,
+    "sku": "NI930ST1WKIRWNAFAMZ",
+    "title": "NIVEA Perfect & Radiant Body Lotion For Women - 400ml (Pack Of 2)",
+    "name": "Perfect & Radiant Body Lotion For Women - 400ml (Pack Of 2)",
+    "price": "6550.00",
+    "currency": "₦",
+    "rating": {
+      "average": 4.1,
+      "totalRatings": 4784
+    },
+    "url": "https://www.jumia.com.ng/natural-fairness-clarifiant-for-women-400ml-pack-of-2-nivea-mpg1657699.html",
+    "categories": [
+      "Health & Beauty",
+      "Beauty & Personal Care",
+      "Personal Care",
+      "Skin Care",
+      "Body",
+      "Moisturizers",
+      "Lotions"
+    ],
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/15/1713401/1.jpg?0547",
+      "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/15/1713401/1.jpg?0547",
+      "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/15/1713401/2.jpg?0488",
+      "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/15/1713401/3.jpg?0498",
+      "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/15/1713401/4.jpg?0508",
+      "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/15/1713401/5.jpg?0519",
+      "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/15/1713401/6.jpg?0530",
+      "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/15/1713401/7.jpg?0538"
+    ]
+  }
 ```
 
 ## Supported URL types

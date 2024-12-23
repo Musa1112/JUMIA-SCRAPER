@@ -8,9 +8,7 @@
       "type": "array",
       "description": "URLs to start with",
       "prefill": [
-        "https://www.jumia.com.ng/health-beauty/",
-        "https://www.jumia.com.ng/mlp-appliances/",
-        "https://www.jumia.com.ng/computing/"
+        "https://www.jumia.com.ng/health-beauty/"
       ],
       "editor": "stringList"
     },

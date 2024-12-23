@@ -64,7 +64,7 @@ import {
     minConcurrency,
     maxRequestRetries,
     requestHandlerTimeoutSecs: 60,
-    proxyConfiguration: proxyConfig,
+    // proxyConfiguration: proxyConfig,
     preNavigationHooks: [
       async (crawlingContext, gotoOptions) => {
         const { page } = crawlingContext;

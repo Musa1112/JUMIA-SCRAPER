@@ -1,19 +1,17 @@
 {
-  "name": "actor-coupert-scraper",
+  "name": "actor-jumia-scraper",
   "version": "1.0.0",
-  "description": "Scrape Coupert website to extract coupon codes",
+  "description": "Scrape Jumia to pull product data",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
   },
   "keywords": [
-    "Little",
-    "Birdie",
     "scraper",
-    "Coupert"
+    "Jumia"
   ],
-  "author": "Caleb David",
+  "author": "Ongason",
   "license": "ISC",
   "type": "module",
   "dependencies": {

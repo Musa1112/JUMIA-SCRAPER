@@ -1,8 +1,8 @@
 {
 	"id": "P4WMkpo114nrhUw",
-	"json": "{\"id\":\"P4WMkpo114nrhUw\",\"url\":\"https://www.jumia.com.ng/aichun-beauty-black-facial-mask-whitening-complex-free-black-head-216691250.html\",\"loadedUrl\":\"https://www.jumia.com.ng/aichun-beauty-black-facial-mask-whitening-complex-free-black-head-216691250.html\",\"uniqueKey\":\"https://www.jumia.com.ng/aichun-beauty-black-facial-mask-whitening-complex-free-black-head-216691250.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"PRODUCT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2024-12-23T13:42:34.002Z\"}",
+	"json": "{\"id\":\"P4WMkpo114nrhUw\",\"url\":\"https://www.jumia.com.ng/aichun-beauty-black-facial-mask-whitening-complex-free-black-head-216691250.html\",\"uniqueKey\":\"https://www.jumia.com.ng/aichun-beauty-black-facial-mask-whitening-complex-free-black-head-216691250.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"PRODUCT\"}}",
 	"method": "GET",
-	"orderNo": null,
+	"orderNo": 1734962141100,
 	"retryCount": 0,
 	"uniqueKey": "https://www.jumia.com.ng/aichun-beauty-black-facial-mask-whitening-complex-free-black-head-216691250.html",
 	"url": "https://www.jumia.com.ng/aichun-beauty-black-facial-mask-whitening-complex-free-black-head-216691250.html"

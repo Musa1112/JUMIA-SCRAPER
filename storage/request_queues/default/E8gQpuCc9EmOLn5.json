@@ -1,6 +1,6 @@
 {
 	"id": "E8gQpuCc9EmOLn5",
-	"json": "{\"id\":\"E8gQpuCc9EmOLn5\",\"url\":\"https://www.jumia.com.ng/health-beauty/?page=18#catalog-listing\",\"loadedUrl\":\"https://www.jumia.com.ng/health-beauty/?page=18#catalog-listing\",\"uniqueKey\":\"https://www.jumia.com.ng/health-beauty?page=18\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LISTING\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2024-12-23T13:41:22.081Z\"}",
+	"json": "{\"id\":\"E8gQpuCc9EmOLn5\",\"url\":\"https://www.jumia.com.ng/health-beauty/?page=18#catalog-listing\",\"loadedUrl\":\"https://www.jumia.com.ng/health-beauty/?page=18#catalog-listing\",\"uniqueKey\":\"https://www.jumia.com.ng/health-beauty?page=18\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LISTING\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2024-12-23T13:49:25.437Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

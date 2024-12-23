@@ -173,8 +173,8 @@ import {
         devtools: false,
         args: [...chromeArgs],
         defaultViewport: false,
-        // executablePath: process.env.APIFY_CHROME_EXECUTABLE_PATH,
-        executablePath: "C:\/Program Files\/Google\/Chrome\/Application\/chrome.exe"
+        executablePath: process.env.APIFY_CHROME_EXECUTABLE_PATH,
+        // executablePath: "C:\/Program Files\/Google\/Chrome\/Application\/chrome.exe"
       },
     },
     browserPoolOptions: {

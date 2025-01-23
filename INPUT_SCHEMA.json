@@ -23,8 +23,8 @@
     "maxConcurrency": {
       "title": "Maximum request concurrency",
       "description": "Set the max request concurrency",
-      "default": 3,
-      "prefill": 3,
+      "default": 30,
+      "prefill": 30,
       "type": "integer",
       "editor": "number"
     },

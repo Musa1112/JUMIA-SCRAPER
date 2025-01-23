@@ -60,7 +60,7 @@ import {
   // Initialoize the crawler
   const crawler = new PuppeteerCrawler({
     requestQueue,
-    maxConcurrency: 3,
+    maxConcurrency: 30,
     minConcurrency,
     maxRequestRetries,
     requestHandlerTimeoutSecs: 60,
